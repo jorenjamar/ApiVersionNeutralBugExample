@@ -1,0 +1,1 @@
+Example API to showcase a bug with the ApiVersionNeutral of the Asp.Versioning.Api. When the broken/task endpoint is called without a specified version, an error is thrown. This while the AssumeDefaultVersionWhenUnspecified is set to true and version 1.0 is allowed for this endpoint.
